@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Nothing">#00000000</color>
+    <color name="Black">#ff000000</color>
+    <color name="DodgerBlue">#ff1E90FF</color>
+    <color name="SpringGreen">#ff00FF7F</color>
+    <color name="White">#ffFFFFFF</color>
+    <color name="Red">#ffFF0000</color>
+      <color name="RedTransparent33">#33ff0000</color>
+    
+    <color name="Alpha99">#99000000</color>
+    <color name="Alpha66">#66000000</color>
+    <color name="Alpha33">#33000000</color>
+    <color name="deepskyblue">#00bfff</color><!--深天蓝色 --> 
+    <color name="DarkViolet">#9400d3</color><!--暗紫罗兰 --> 
+</resources>
