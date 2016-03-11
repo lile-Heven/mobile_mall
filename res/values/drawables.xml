@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- app背景色 -->
+    <drawable name="android_layout_bg">#f2f3f5</drawable>
+    
+</resources>

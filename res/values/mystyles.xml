@@ -16,4 +16,17 @@
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#0000ff</item>
     </style>
+    <!-- 标题栏 -->
+    <style name="TopbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/topbar_height</item>
+        <item name="android:background">@drawable/drawable_topbar_bg</item>
+    </style>
+       <!-- 我的京东菜单 -->
+    <style name="MineItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_height_middle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
 </resources>
