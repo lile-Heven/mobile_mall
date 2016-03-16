@@ -3,4 +3,11 @@
     <!-- app背景色 -->
     <drawable name="android_layout_bg">#f2f3f5</drawable>
     
+    <!-- 透明 -->
+    <drawable name="transparent">#00000000</drawable>
+    
+    <!-- 购物车ListView背景 -->
+    <drawable name="listView_bg">#f2f4f6</drawable>
+    <drawable name="red_add_to_cart_n">#f15353</drawable>
+    <drawable name="red_add_to_cart_p">#a83a3a</drawable>
 </resources>

@@ -13,6 +13,6 @@ public class MyFragment_GWC extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
     		Bundle savedInstanceState) {
     	// TODO 自动生成的方法存根
-    	return inflater.inflate(R.layout.fragment_gwc, null, false);
+    	return inflater.inflate(R.layout.fragment_gwc2, null, false);
     }
 }

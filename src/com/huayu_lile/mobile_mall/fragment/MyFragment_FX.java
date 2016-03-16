@@ -13,6 +13,6 @@ public class MyFragment_FX extends Fragment{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
     		Bundle savedInstanceState) {
     	// TODO 自动生成的方法存根
-    	return inflater.inflate(R.layout.fragment_fx, null, false);
+    	return inflater.inflate(R.layout.fragment_fl, null, false);
     }
 }
