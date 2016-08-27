@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义的基础style:关于width和height -->
+    <style name="baseStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 自定义style:关于button的textSize(28dp)和textColor(红) -->
+    <style name="btnStyle" parent="@style/baseStyle">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">#ff0000</item>
+    </style>
+    <!-- 自定义主题的style:1.noTitle 2.textsize(14sp) 3.textColot(蓝) -->
+    <style name="customTheme" parent="android:Theme.Black">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#0000ff</item>
+    </style>
+    <!-- 标题栏 -->
+    <style name="TopbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/topbar_height</item>
+        <item name="android:background">@drawable/drawable_topbar_bg</item>
+    </style>
+       <!-- 我的京东菜单 -->
+    <style name="MineItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/item_height_middle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+</resources>

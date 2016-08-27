@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/category_list_items" >
+	
+    <TextView 
+       android:id="@+id/tv_category_list"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height_large"
+    android:paddingLeft="16dp"
+    android:gravity="center_vertical"
+    android:duplicateParentState="true"
+    android:textSize="@dimen/small_middle_text_size"
+    android:textColor="@color/category_list_items_text"
+    android:text="常用分类"  />
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".CategoryFragment" >
+
+    <RelativeLayout
+        android:id="@+id/layout_category_topbar"
+        style="@style/TopbarStyle" >
+
+        <RelativeLayout
+            android:id="@+id/layout_category_search"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="12dp"
+            android:layout_toLeftOf="@+id/img_category_search_code"
+            android:background="@drawable/lib_story_search_box_background" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/imageView3"
+                android:text="搜索京东商品/店铺"
+                android:textColor="#a0a0a0" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:src="@drawable/lib_story_img_search_bt" />
+
+            <ImageView
+                android:id="@+id/topbar_search_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dp"
+                android:src="@drawable/app_icon_voice" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_category_search_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/layout_category_search"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/search_button" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView_category"
+        android:layout_width="92dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_category_topbar"
+        android:scrollbars="none" >
+
+        <com.huayu_lile.mobile_mall.bean.ListViewForScrollView
+            android:id="@+id/listView_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@drawable/transparent"
+            android:divider="@null"
+            android:fadingEdge="none"
+            android:listSelector="@drawable/transparent"
+            android:scrollbars="none" >
+        </com.huayu_lile.mobile_mall.bean.ListViewForScrollView>
+    </ScrollView>
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_category_topbar"
+        android:layout_toRightOf="@+id/scrollView_category"
+        android:cacheColorHint="@drawable/transparent"
+        android:divider="@null"
+        android:fadingEdge="none"
+        android:listSelector="@drawable/transparent"
+        android:numColumns="3" >
+    </GridView>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateDrawable="@drawable/progressbar_circle_1" />
+
+</RelativeLayout>
